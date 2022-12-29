@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.menu i{
+    padding: 20px 45px;
+    font-size: 2.5rem;
+}
+.menu i:hover{
+    background-color: #aaa;
+}
+.first-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.first-content h1{
+    padding-top: 10px;
+}
+.first-content p{
+    padding: 20px 0px;
+}
+.first-content button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+}
+.first-content button:hover{
+    background-color: #aaa;
+}
+.second-container{
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+}
+.s-f-content{
+    width: 33.3%;
+}
+.s-f-content img{
+    width: 100%;
+    margin-bottom: -7px;
+}
+.s-s-content{
+    width: 33.3%;
+}
+.s-s-content img{
+    width: 100%;
+    margin-bottom: -7px;
+}
+.s-t-content{
+    width: 33.3%;
+}
+.s-t-content img{
+    width: 100%;
+    margin-bottom: -7px;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: #eee;
+    padding: 25px 0px;
+}
+footer p{
+    padding: 10px 0px;
+}
+footer p i{
+    font-size: 1.5rem;
+    padding: 0px 5px;
+}
+footer p i:hover{
+    color: #aaa;
+}
+@media screen and (max-width:600px){
+    .menu i{
+        padding: 20px 15px;
+        font-size: 2rem;
+    }
+    .second-container{
+        flex-wrap: wrap;
+        padding: 30px 0px;
+    }
+    .s-f-content{
+        width: 100%;
+    }
+    .s-s-content{
+        width: 100%;
+    }
+    .s-t-content{
+        width: 100%;
+    }
+}
